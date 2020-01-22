@@ -1,0 +1,37 @@
+#title{
+	display: flex;
+	flex-direction: column;
+}
+.newGroup{
+	display: none;
+	flex-grow: 1;
+	position: absolute;
+	right: 0;
+	width: calc(100% - 300px);
+	top: 0;
+}
+
+.newGroup-active {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sub {
+	width: 50%;
+}
+
+.sub p:first-child a{
+	font-weight: bold;
+}
+
+.tabs-li{
+	display: flex;
+}
+.title-list{
+	cursor: pointer;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+}
